@@ -1,0 +1,10 @@
+. Many-to-Many Relationship: Student and Courses
+Question: Create a Student entity that has a Many-to-Many relationship with a Course entity.
+A Student should have attributes like id, name, and email.
+A Course should have attributes like id, title, and description.
+Tasks:
+Annotate the entities to establish a Many-to-Many relationship between Student and Course using a join table.
+Write repository methods to using runner classes:
+Retrieve all courses a specific student is enrolled in.
+Retrieve all students enrolled in a specific course.
+Demonstrate how to add a course to a student’s list of courses and persist the relationship.
