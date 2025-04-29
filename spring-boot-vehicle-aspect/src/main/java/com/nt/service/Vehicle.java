@@ -28,7 +28,7 @@ public void setName(String name) {
  
 @Override 
 public String toString() { 
- return "Vehicle [name=" + name + ", vehicleService=" + vehicleService + "]"; 
+ return "Vehicle [name=" + name + "]"; 
 } 
 
 public void printHello(){ 
